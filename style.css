@@ -1,0 +1,50 @@
+body {
+    background: url('dogcatpaw.jpg') center center/cover repeat;
+}
+
+.cell{
+    width: 90px;
+    height: 90px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+h1 {
+    padding-left: 45px;
+}
+.status-text, 
+h1, 
+.cell {
+    color: #ef5363;
+}
+.status-text,
+.restart-btn {
+    margin-left: 45px;
+}
+
+.cell-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+.game-container{
+    text-align: center;
+}
+
+.restart-btn {
+    font-size: 1.4em;
+    background-color: #fff6ef;
+    color: #ff8894;
+    border: 1px solid #ff8894;
+}
+
+.restart-btn:hover {
+    background-color: #ff8894;
+    color: #fff6ef;
+    border: 1px solid #fff6ef;
+}
